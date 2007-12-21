@@ -7,6 +7,7 @@ Name: ctorrent
 Version: 3.2
 Release: %release
 Summary: Fast and small BitTorrent Client program written in C/C++
+BuildRoot: %{_tmppath}/%{name}-%{version}-build
 License: GPL
 Group: Networking/File transfer
 URL: http://www.rahul.net/dholmes/ctorrent/
