@@ -1,10 +1,8 @@
 %define rel 1
 %define release %mkrel %rel
-#fixed2
-%{?!mkrel:%define mkrel(c:) %{-c: 0.%{-c*}.}%{!?_with_unstable:%(perl -e '$_="%{1}";m/(.\*\\D\+)?(\\d+)$/;$rel=${2}-1;re;print "$1$rel";').%{?subrel:%subrel}%{!?subrel:1}.%{?distversion:%distversion}%{?!distversion:%(echo $[%{mdkversion}/10])}}%{?_with_unstable:%{1}}%{?distsuffix:%distsuffix}%{?!distsuffix:mdk}}
 
 Name: ctorrent
-Version: 3.2
+Version: 3.3
 Release: %release
 Summary: Fast and small BitTorrent Client program written in C/C++
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
