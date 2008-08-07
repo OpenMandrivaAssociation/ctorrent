@@ -2,11 +2,11 @@
 %define release %mkrel %rel
 
 Name: ctorrent
-Version: 3.3
+Version: 3.3.2
 Release: %release
 Summary: Fast and small BitTorrent Client program written in C/C++
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
-License: GPL
+License: GPLv2
 Group: Networking/File transfer
 URL: http://www.rahul.net/dholmes/ctorrent/
 Source0: http://www.rahul.net/dholmes/ctorrent/ctorrent-dnh%{version}.tar.gz
