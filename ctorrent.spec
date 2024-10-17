@@ -4,7 +4,7 @@ Version:	3.3.2
 Release:	7
 License:	GPLv2+
 Group:		Networking/File transfer
-Url:		http://www.rahul.net/dholmes/ctorrent/
+Url:		https://www.rahul.net/dholmes/ctorrent/
 Source0:	http://www.rahul.net/dholmes/ctorrent/%{name}-dnh%{version}.tar.gz
 BuildRequires:	pkgconfig(openssl)
 
