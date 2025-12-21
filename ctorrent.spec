@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		Networking/File transfer
 Url:		https://www.rahul.net/dholmes/ctorrent/
 Source0:	http://www.rahul.net/dholmes/ctorrent/%{name}-dnh%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(openssl)
 
 %description
